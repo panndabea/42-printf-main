@@ -43,3 +43,6 @@ bash
 ./my_program
 
 This should correctly link and run your ft_printf implementation along with your main tests!
+
+valgrind --leak-check=full ./my_program
+
